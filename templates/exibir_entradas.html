@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block corpo %}
     {% if session.logado %}
-        <form action="{{ url_for('inserir_entrada') }}" method="POST" class="ins_entrada">
+        <form action="{{ url_for('inserir_entradas') }}" method="POST" class="ins_entrada">
             <dl>
                 <dt> Título:
                 <dd><input type="text" size="30" name="titulo">
